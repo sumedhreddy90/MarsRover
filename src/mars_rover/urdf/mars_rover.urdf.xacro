@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!-- Name your robot here -->
-<robot name ="" xmlns:xacro="http://wiki.ros.org/xacro">
+<robot name ="mars_rover" xmlns:xacro="http://wiki.ros.org/xacro">
 
 <!-- Include your urdf files here -->
 	<!-- Include Robot's urdf filepath -->
 	<!-- Include Lidar's urdf filepath -->
-	<xacro:include filename=""/>
-	<xacro:include filename=""/>
+	<xacro:include filename="${find mars_rover)/urdf/mars_rover.urdf"/>
+	<xacro:include filename="${find mars_rover)/urdf/ylidar.urdf"/>
 
 <!-- Add your gazebo sensors here -->
 	
