@@ -7,7 +7,7 @@
   <link name="gazebo_base_link">
   </link>
   <joint
-    name="gazebo_base_link">
+    name="gazebo_base_link" type="fixed">
     <parent
       link="gazebo_base_link" />
     <child

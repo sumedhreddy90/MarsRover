@@ -5,8 +5,8 @@
 <!-- Include your urdf files here -->
 	<!-- Include Robot's urdf filepath -->
 	<!-- Include Lidar's urdf filepath -->
-	<xacro:include filename="${find mars_rover)/urdf/mars_rover.urdf"/>
-	<xacro:include filename="${find mars_rover)/urdf/ylidar.urdf"/>
+	<xacro:include filename="mars_rover.urdf"/>
+	<xacro:include filename="ydlidar.urdf"/>
 
 <!-- Add your gazebo sensors here -->
 	<gazebo reference="base_laser">
