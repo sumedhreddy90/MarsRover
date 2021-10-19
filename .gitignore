@@ -7,6 +7,8 @@ install_manifest.txt
 build
 devel
 
+.catkin_workspace
+
 # VS Code files
 *.VC.db*
 
